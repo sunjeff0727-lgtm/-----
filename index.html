@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="小杰的資料結構小考：12 道選擇題，測試陣列、鏈結串列、堆疊、佇列、樹與圖，附自動計分及詳解。">
+  <title>小杰的小考｜資料結構</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="quiz.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="./"><span class="logo">J.</span> 小杰的小考</a><span class="course">COMPUTER SCIENCE / 01</span></header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">把觀念串起來 · DATA STRUCTURES</p><h1>資料結構，<br>你掌握了多少？</h1><p class="lead">從第一個陣列到一整張圖，<br>用 12 道題目，檢查你的程式設計基礎。</p><div class="tags"><span>12 道單選題</span><span>約 5–8 分鐘</span><span>提交後看詳解</span></div></div>
+      <div class="diagram" aria-hidden="true"><span class="diagram-label">ROOT → THINK → CONNECT</span><svg viewBox="0 0 340 200"><g stroke="#77a99a" stroke-width="2" fill="none"><path d="M170 40L85 105M170 40L255 105M85 105L40 170M85 105L130 170M255 105L210 170M255 105L300 170"/></g><g fill="#e2efcf" stroke="#204e43" stroke-width="2"><circle cx="170" cy="40" r="24"/><circle cx="85" cy="105" r="22"/><circle cx="255" cy="105" r="22"/><circle cx="40" cy="170" r="18"/><circle cx="130" cy="170" r="18"/><circle cx="210" cy="170" r="18"/><circle cx="300" cy="170" r="18"/></g><g fill="#204e43" font-size="15" text-anchor="middle" dominant-baseline="middle" font-family="monospace"><text x="170" y="40">8</text><text x="85" y="105">4</text><text x="255" y="105">12</text><text x="40" y="170">2</text><text x="130" y="170">6</text><text x="210" y="170">10</text><text x="300" y="170">14</text></g></svg><span class="diagram-caption">每一個節點，都是理解的起點。</span></div>
+    </section>
+    <section class="workspace" aria-label="小考作答區">
+      <aside><p class="eyebrow">YOUR PROGRESS</p><h2>作答進度</h2><p id="progress-text" aria-live="polite">已完成 0 / 12 題</p><progress id="progress" max="12" value="0">0 / 12</progress><nav id="question-nav" aria-label="題目導覽"></nav><p class="hint">每題選擇一個答案。<br>交卷前都可以修改選項。</p><div class="coverage">本次範圍<br><strong>線性結構 · 樹 · 圖<br>搜尋 · 排序 · 複雜度</strong></div></aside>
+      <div class="questions"><div class="section-title"><h2>概念挑戰</h2><span>單選 / 共 12 題</span></div><form id="quiz"><div id="question-list"></div><p id="notice" role="status"></p><div class="actions"><button class="primary" type="submit">交卷，查看成績 <span>↗</span></button><span>每題 1 分，滿分 12 分</span></div></form><section id="results" hidden tabindex="-1" aria-labelledby="result-title"><p class="eyebrow">CHALLENGE COMPLETE</p><h2 id="result-title">你的學習成果</h2><p id="score"></p><p id="feedback"></p><p>下方每題皆已顯示正確答案與觀念解析。</p><button id="retry" type="button" class="primary">再挑戰一次 ↻</button></section></div>
+    </section>
+  </main><footer><span>小杰的小考 · 資料結構練習</span><span>保持好奇，持續練習。</span></footer>
+</body>
+</html>
